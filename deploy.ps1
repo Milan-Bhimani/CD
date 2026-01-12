@@ -1,6 +1,6 @@
 $Repo = "ghcr.io/milan-bhimani/cd"
 $Tag = "main"
-$Image = "$Repo`:%Tag"
+$Image = "$Repo`:$Tag"
 $ContainerName = "production-app"
 Write-Host "🚀 Starting Deployment Simulation..." -ForegroundColor Cyan
 Write-Host "⬇️ Pulling latest image..."
