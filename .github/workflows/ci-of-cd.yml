@@ -3,8 +3,8 @@ name: CD Pipeline (Docker Build & Push)
 on:
   push:
     branches: [Main]
-  paths:
-    - 'CD/**'
+    paths:
+      - 'CD/**'
 
 env:
   REGISTRY: ghcr.io
